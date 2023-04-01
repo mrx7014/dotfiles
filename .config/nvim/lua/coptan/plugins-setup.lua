@@ -33,11 +33,10 @@ return packer.startup(function(use)
   -- essential plugins
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
   use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
+  use("barrett-ruth/live-server.nvim") -- live-server within neovim
+  use("lukas-reineke/indent-blankline.nvim") -- indent line
 
-  -- Indent guides
-  use("lukas-reineke/indent-blankline.nvim")
-
-  -- commenting with gc
+  -- commenting with gcc
   use("numToStr/Comment.nvim")
 
   -- file explorer
@@ -58,6 +57,9 @@ return packer.startup(function(use)
   use("hrsh7th/nvim-cmp") -- completion plugin
   use("hrsh7th/cmp-buffer") -- source for text in buffer
   use("hrsh7th/cmp-path") -- source for file system paths
+
+  -- colorizer
+  use("NvChad/nvim-colorizer.lua")
 
   -- snippets
   use("L3MON4D3/LuaSnip") -- snippet engine
