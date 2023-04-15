@@ -12,7 +12,7 @@ echo "[*] Upgrading termux...."
 apt upgrade
 echo " "
 echo "[*] Installing packages...."
-apt install neovim zsh git curl clang cmake nodejs fzf stylua tmux fd ripgrep
+apt install neovim zsh git curl clang cmake nodejs fzf tmux ripgrep
 echo " "
 }
 
